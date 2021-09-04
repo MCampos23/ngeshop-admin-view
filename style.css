@@ -21,6 +21,14 @@ body{
     box-shadow: 2px 2px 2px #ccc;
     width: auto;
 }
+.card:hover{
+    width: 90%;   
+    transition: all 3000ms;
+}
+.card > a {
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+}
 h2,p{
     text-align: center;
 }
