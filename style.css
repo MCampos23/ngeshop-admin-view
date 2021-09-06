@@ -24,9 +24,7 @@ body{
     margin: 15px;
     box-shadow: 2px 2px 2px #ccc;
     width: auto;
-    margin-bottom: -10px
-
-;
+    margin-bottom: -10px;
     
 }
 .card:hover{
@@ -54,3 +52,24 @@ h2 > span{
     font-family: 'Roboto', sans-serif;
 }
 
+@media(max-width: 964px){
+    .container{
+        margin-top: 2.5%;
+        width: 75%;
+    }
+}
+@media(max-width: 612px){
+    .container{
+        height:900px;
+        width: 95%;
+    }
+    .card{
+        margin: 0px;
+    }
+}
+@media(max-width: 412px){
+    .container{
+        height:850px;
+    }
+    
+}
